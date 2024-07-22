@@ -7,7 +7,7 @@ edition = "2018"
 [dependencies]
 # ammonia had a stack overflow < 2.1.0
 # https://github.com/RustSec/advisory-db/blob/01ac6725d549dbc7873250fe2a55e54d528fe945/crates/ammonia/RUSTSEC-2019-0001.toml
-ammonia = "=0.7.0"
+ammonia = "=1.2.0"
 
 # Version =0.3.0-rc.1 has a vulnerability, but not this version, and, presumably
 # not in >=0.3 as well, but that isn't release yet
